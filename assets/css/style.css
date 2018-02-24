@@ -277,10 +277,75 @@ footer {
 
 @media screen and (max-width: 768px) {
 
+    /* Global Style */
+
+    body {
+        min-width: 768px;
+    }
+
+    h3 {
+        text-align: left;
+    }
+    
     /* Header Styles */
 
     .header {
         width: 748px;
+    }
+
+    /* Main Styles */
+
+    .main-content {
+        width: 100%;
+    }
+
+    section {
+        display: block;
+        width: 708px;
+        margin: auto;
+    }
+
+    section p img {
+        float: left;
+        margin: 0 20px 0 0;
+        width: auto;
+    }
+
+    section a {
+        float: left;
+        margin-bottom: 50px;
+        width: 45%;
+    }
+    
+    section a:nth-of-type(even) {
+        float: right;
+    }
+    
+    section a:last-of-type {
+        margin-bottom: 20px;
+    }
+    
+    section a div {
+        margin-bottom: 0;
+    }
+
+    .last {
+        margin-bottom: 0;
+    }
+    
+    section h4 {
+        bottom: 10px;
+    }
+
+    aside {
+        float: none;
+        width: 708px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    aside ul {
+        margin-left: 20px;
     }
 
 }
