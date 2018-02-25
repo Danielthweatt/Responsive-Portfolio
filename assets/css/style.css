@@ -351,6 +351,12 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+
+    /* Global Styles */
+
+    body {
+        min-width: 640px;
+    }
     
     /* Header Styles */
 
@@ -385,6 +391,49 @@ footer {
     
     nav li:last-child {
         padding-right: none;
+    }
+
+    /* Main Styles */
+
+    .main-content {
+        padding-top: 25px;
+    }
+
+    section {
+        width: 600px;
+    }
+
+    section p img {
+        float: none;
+        margin: 0 0 10px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    aside {
+        width: 600px;
+    }
+
+    section a {
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+
+    section a:nth-of-type(even) {
+        float: none;
+    }
+
+    section a div {
+        margin-bottom: 40px;
+    }
+
+    .last {
+        margin-bottom: 10px;
+    }
+
+    section h4 {
+        bottom: 25px;
     }
 
 }
