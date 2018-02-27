@@ -238,6 +238,7 @@ footer {
 
     .main-content {
         width: 800px;
+        padding-bottom: 50px;
     }
     
     section {
@@ -272,7 +273,13 @@ footer {
     section h4 {
         bottom: 25px;
     }
-    
+
+    /* Footer Styles */
+
+    footer {
+        position: static;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
